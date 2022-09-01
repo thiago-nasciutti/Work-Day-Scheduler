@@ -5,5 +5,5 @@ var leadEl = document.querySelector(".lead");
 var containerEl = document.querySelector(".container");
 var currentDayEl = document.querySelector("#currentDay");
 
-//Function: current day
+//Display the current day
 currentDayEl.textContent = moment().format("dddd, MMMM Do");
