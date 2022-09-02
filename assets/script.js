@@ -27,37 +27,53 @@ var btn17El = document.querySelector("#btn17");
 currentDayEl.textContent = moment().format("dddd, MMMM Do");
 
 //Hour Now
-// var hourNow = moment().format("H");
-var hourNow = 17;
-
+var hourNow = moment().format("H");
 
 //Save Text in the Local Storage
 function save9() {
-  localStorage.setItem("loc9", txt9.value);
+  if (hourNow < 9) {
+    localStorage.setItem("loc9", txt9El.value);
+  }
 }
 function save10() {
-  localStorage.setItem("loc10", txt10.value);
+  if (hourNow < 10) {
+    localStorage.setItem("loc10", txt10El.value);
+  }
 }
 function save11() {
-  localStorage.setItem("loc11", txt11.value);
+  if (hourNow < 11) {
+    localStorage.setItem("loc11", txt11El.value);
+  }
 }
 function save12() {
-  localStorage.setItem("loc12", txt12.value);
+  if (hourNow < 12) {
+    localStorage.setItem("loc12", txt12El.value);
+  }
 }
 function save13() {
-  localStorage.setItem("loc13", txt13.value);
+  if (hourNow < 13) {
+    localStorage.setItem("loc13", txt13El.value);
+  }
 }
 function save14() {
-  localStorage.setItem("loc14", txt14.value);
+  if (hourNow < 14) {
+    localStorage.setItem("loc14", txt14El.value);
+  }
 }
 function save15() {
-  localStorage.setItem("loc15", txt15.value);
+  if (hourNow < 15) {
+    localStorage.setItem("loc15", txt15El.value);
+  }
 }
 function save16() {
-  localStorage.setItem("loc16", txt16.value);
+  if (hourNow < 16) {
+    localStorage.setItem("loc16", txt16El.value);
+  }
 }
 function save17() {
-  localStorage.setItem("loc17", txt17.value);
+  if (hourNow < 17) {
+    localStorage.setItem("loc17", txt17El.value);
+  }
 }
 
 //Get Text from the Local Storage
