@@ -10,7 +10,7 @@ $("#currentDay").text(moment().format("dddd, MMMM Do"));
 
 //Functions
 function getTime() {
- var time = moment().hours();
+ var time = moment().hours()
 
  for (var i = 9; i <= 17; i++) {
   var timeEl = document.getElementById(i);
